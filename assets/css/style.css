@@ -758,24 +758,28 @@ input[type="color"]:focus {
 }
 
 .JournalPortal-eCommerce {
+    background-color: #c8e2ea;
     border-radius: 4px;
     padding: 5px 15px;
 }
 
 .JournalPortal-eCommerce_title {
+    color: #108ba1;
+    font-family: "Entezar1";
     margin-top: 15px;
 }
 
 .JournalPortal-eCommerce_bodyLink {
+    color: #000;
     line-height: 2;
 }
 
 .JournalPortal-eCommerce_bodyLink:hover {
-    color: #2eb135;
+    color: #9c3c25;
 }
 
 .JournalPortal-FeedBackModal:hover {
-    color: #2eb135;
+    color: #9c3c25;
 }
 
 
