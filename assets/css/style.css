@@ -255,6 +255,12 @@ input[type="color"]:focus {
     background-color: #6d3628;
 }
 
+.navbar-brown {
+    background-color: #9c3c25;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
 .Pearl {
     color: #e0cec3;
 }
@@ -269,11 +275,6 @@ input[type="color"]:focus {
 
 .Pearlbg-dark {
     background-color: #c9a892;
-}
-
-.navbar-Pearlbg {
-    background-color: #c9a892;
-    margin-top: 15px;
 }
 
 .Pearl-gradient {
@@ -502,7 +503,7 @@ input[type="color"]:focus {
 
 .nav>li>a:focus,
 .nav>li>a:hover {
-    background-color: #4d5fab;
+    background-color: #5f2f23;
     color: #efeff6;
     -webkit-transition: padding 0s linear, color 0.5s ease-in-out, background-color 0.3s ease-in-out;
     -o-transition: padding 0s linear, color 0.5s ease-in-out, background-color 0.3s ease-in-out;
