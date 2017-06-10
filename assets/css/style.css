@@ -211,7 +211,7 @@ input[type="color"]:focus {
 }
 
 .carousel-caption {
-    background-color: #4d5fab;
+    background-color: #857362;
     right: 0;
     left: 0;
     bottom: 0;
@@ -669,6 +669,7 @@ input[type="color"]:focus {
 
 .JournalPortal-notification_bodyLink {
     color: #4f4f4f;
+    font-weight: 500;
     line-height: 2;
 }
 
@@ -677,6 +678,20 @@ input[type="color"]:focus {
 }
 
 .JournalPortal-notification_bodyLink:hover {
+    color: #9c3c25;
+}
+
+.JournalPortal-services_bodyLink {
+    color: #4f4f4f;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.JournalPortal-services_bodyLink > .fa-circle {
+    color: #9c3c25;
+}
+
+.JournalPortal-services_bodyLink:hover {
     color: #9c3c25;
 }
 
@@ -693,6 +708,11 @@ input[type="color"]:focus {
     font-weight: 600;
 }
 
+.JournalPortal-valid>.JournalPortal-notification_bodyLink {
+    display: flex;
+    align-items: top;
+}
+
 .JournalPortal-valid_img {
     vertical-align: text-bottom;
     margin-left: 5px;
@@ -700,6 +720,7 @@ input[type="color"]:focus {
 
 .JournalPortal-valid_title {
     display: inline-block;
+    font-weight: 500;
 }
 
 .JournalPortal-news {
