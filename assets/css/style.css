@@ -59,7 +59,7 @@ section:before {
 
 a:focus,
 a:hover {
-    color: #4d5fab;
+    color: #6d3628;
     text-decoration: none;
 }
 
@@ -656,20 +656,28 @@ input[type="color"]:focus {
 }
 
 .JournalPortal-notification {
+    background-color: #c8e2ea;
     border-radius: 4px;
     padding: 5px 15px;
 }
 
 .JournalPortal-notification_title {
+    color: #05869c;
+    font-family: "Entezar1";
     margin-top: 15px;
 }
 
 .JournalPortal-notification_bodyLink {
+    color: #4f4f4f;
     line-height: 2;
 }
 
+.JournalPortal-notification_bodyLink > .fa-circle {
+    color: #857362;
+}
+
 .JournalPortal-notification_bodyLink:hover {
-    color: #2eb135;
+    color: #9c3c25;
 }
 
 .JournalPortal-publicList {
