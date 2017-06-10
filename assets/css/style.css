@@ -729,9 +729,9 @@ input[type="color"]:focus {
     padding: 0 15px 20px;
 }
 
-.JournalPortal-news {
-    border-radius: 4px;
-    padding: 5px 15px;
+.JournalPortal-newsTitle {
+    color: #05869c;
+    font-family: "Entezar1";
 }
 
 .JournalPortal-news_title {
@@ -739,6 +739,7 @@ input[type="color"]:focus {
 }
 
 .JournalPortal-news_bodyLink {
+    color: #4f4f4f;
     line-height: 2;
 }
 
@@ -749,7 +750,11 @@ input[type="color"]:focus {
 }
 
 .JournalPortal-news_bodyLink:hover {
-    color: #2eb135;
+    color: #9c3c25;
+}
+
+.JournalPortal-news_bodyLink>.fa-circle {
+    color: #9c3c25;
 }
 
 .JournalPortal-eCommerce {
