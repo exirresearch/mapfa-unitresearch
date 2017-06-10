@@ -709,6 +709,13 @@ input[type="color"]:focus {
     line-height: 2;
 }
 
+@media (max-width: 991px) {
+    .JournalPortal-services.row {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
 .JournalPortal-services_bodyLink > .fa-circle {
     color: #9c3c25;
 }
@@ -723,6 +730,13 @@ input[type="color"]:focus {
     border-radius: 0 4px 4px 0;
     padding: 2px 5px;
     margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+    .JournalPortal-publicList {
+        margin-right: -30px; 
+        margin-left: -15px; 
+    }
 }
 
 .JournalPortal-publicList_title {
