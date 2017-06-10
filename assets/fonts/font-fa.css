@@ -54,33 +54,33 @@
     url('./IRANSans4/WebFonts/fonts/ttf/IRANSansWeb.ttf') format('truetype');
 }
 
-/* Vaziri */
+/* Vazir */
 @font-face {
-    font-family: Vaziri;
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir.eot');
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir.eot?#iefix') format('embedded-opentype'), url('./Vaziri/vazir-font-v3.1.0/Vazir.woff') format('woff'), 
-    url('./Vaziri/vazir-font-v3.1.0/Vazir.ttf') format('truetype');
+    font-family: Vazir;
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir.eot');
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir.eot?#iefix') format('embedded-opentype'), url('./Vazir/vazir-font-v3.1.0/Vazir.woff') format('woff'), 
+    url('./Vazir/vazir-font-v3.1.0/Vazir.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: Vaziri;
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir-Bold.eot');
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('./Vaziri/vazir-font-v3.1.0/Vazir-Bold.woff') format('woff'), url('./Vaziri/vazir-font-v3.1.0/Vazir-Bold.ttf') format('truetype');
+    font-family: Vazir;
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir-Bold.eot');
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir-Bold.eot?#iefix') format('embedded-opentype'), url('./Vazir/vazir-font-v3.1.0/Vazir-Bold.woff') format('woff'), url('./Vazir/vazir-font-v3.1.0/Vazir-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: Vaziri;
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir-Light.eot');
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir-Light.eot?#iefix') format('embedded-opentype'), url('./Vaziri/vazir-font-v3.1.0/Vazir-Light.woff') format('woff'), url('./Vaziri/vazir-font-v3.1.0/Vazir-Light.ttf') format('truetype');
+    font-family: Vazir;
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir-Light.eot');
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir-Light.eot?#iefix') format('embedded-opentype'), url('./Vazir/vazir-font-v3.1.0/Vazir-Light.woff') format('woff'), url('./Vazir/vazir-font-v3.1.0/Vazir-Light.ttf') format('truetype');
     font-weight: 300;
 }
 
 @font-face {
-    font-family: Vaziri;
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir-Medium.eot');
-    src: url('./Vaziri/vazir-font-v3.1.0/Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('./Vaziri/vazir-font-v3.1.0/Vazir-Medium.woff') format('woff'), url('./Vaziri/vazir-font-v3.1.0/Vazir-Medium.ttf') format('truetype');
+    font-family: Vazir;
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir-Medium.eot');
+    src: url('./Vazir/vazir-font-v3.1.0/Vazir-Medium.eot?#iefix') format('embedded-opentype'), url('./Vazir/vazir-font-v3.1.0/Vazir-Medium.woff') format('woff'), url('./Vazir/vazir-font-v3.1.0/Vazir-Medium.ttf') format('truetype');
     font-weight: 500;
 }
 
@@ -135,8 +135,8 @@
     font-family: "IRANSans";
 }
 
-.fa-Vaziri {
-    font-family: "Vaziri";
+.fa-Vazir {
+    font-family: "Vazir";
 }
 
 .fa-Rezvan {
