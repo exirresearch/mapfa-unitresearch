@@ -244,6 +244,14 @@ input[type="color"]:focus {
         padding-right: 0;
         padding-left: 0;
     }
+
+    #subjects .col-md-2:first-child {
+        padding-right: 15px;
+    }
+
+    #subjects .col-md-2:last-child {
+        padding-left: 15px;
+    }
 }
 
 #information,
