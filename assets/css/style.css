@@ -178,6 +178,11 @@ input[type="color"]:focus {
   opacity: .6;
 }
 
+.navbar {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
 .navbar-toggle {
     border: 1px solid white;
     margin-right: 15px;
@@ -233,8 +238,12 @@ input[type="color"]:focus {
     margin-top: 40px;
 }
 
-#subjects .col-md-2 {
-    width: 18.66666667%
+@media (min-width: 768px) {
+    #subjects .col-md-2 {
+        width: 18.66666667%;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 #information,
@@ -778,8 +787,20 @@ input[type="color"]:focus {
     color: #9c3c25;
 }
 
+.JournalPortal-main-footer {
+    background-color: #9c3c25;
+}
+
+.footer-section__header {
+    margin-top: 0;
+}
+
+.JournalPortal-FeedBackModal {
+    color: #fff;
+}
+
 .JournalPortal-FeedBackModal:hover {
-    color: #9c3c25;
+    color: #e2e1dd;
 }
 
 
