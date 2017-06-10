@@ -158,6 +158,16 @@ input[type="color"]:focus {
     color: #7279ba;
 }
 
+.navbar-toggle {
+    border: 1px solid white;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
 .form-control {
     color: #7279ba;
     background-color: rgba(231, 231, 243, 0.8);
