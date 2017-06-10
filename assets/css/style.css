@@ -184,13 +184,31 @@ input[type="color"]:focus {
 }
 
 .navbar-toggle {
-    border: 1px solid white;
+    border: 1px solid #fff;
     margin-right: 15px;
     margin-left: auto;
 }
 
 .navbar-toggle .icon-bar {
     background-color: #fff;
+}
+
+.navbar-graybg {
+    background-color: #dde0de;
+}
+
+.navbar-graybg .navbar-collapse {
+    border-top: 1px solid #999;
+}
+
+#footer-menu .navbar-toggle {
+    border: 1px solid #555;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+#footer-menu .navbar-toggle .icon-bar {
+    background-color: #555;
 }
 
 .form-control {
