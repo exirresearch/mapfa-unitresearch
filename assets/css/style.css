@@ -108,7 +108,7 @@ button,
 .btn:focus,
 .btn:hover {
     color: #fff;
-    background-color: #7279ba;
+    background-color: #6d3628;
 }
 
 textarea {
@@ -139,23 +139,43 @@ input[type="color"]:focus {
 }
 
 ::-webkit-input-placeholder {
-    /* WebKit browsers */
-    color: #7279ba;
-}
-
-:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: #7279ba;
+  color: #1091a7;
+  opacity: .6;
 }
 
 ::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: #7279ba;
+  color: #1091a7;
+  opacity: .6;
 }
 
 :-ms-input-placeholder {
-    /* Internet Explorer 10+ */
-    color: #7279ba;
+  color: #1091a7;
+  opacity: .6;
+}
+
+:-moz-placeholder {
+  color: #1091a7;
+  opacity: .6;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #1091a7;
+  opacity: .6;
+}
+
+.form-control::-moz-placeholder {
+  color: #1091a7;
+  opacity: .6;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #1091a7;
+  opacity: .6;
+}
+
+.form-control:-moz-placeholder {
+  color: #1091a7;
+  opacity: .6;
 }
 
 .navbar-toggle {
@@ -169,9 +189,9 @@ input[type="color"]:focus {
 }
 
 .form-control {
-    color: #7279ba;
-    background-color: rgba(231, 231, 243, 0.8);
-    border-color: rgba(231, 231, 243, 0.8);
+    color: #9c3c25;
+    background-color: #e2e1dd;
+    border-color: #e2e1dd;
     -webkit-box-shadow: none !important;
     -moz-box-shadow: none !important;
     -o-box-shadow: none !important;
@@ -590,6 +610,7 @@ input[type="color"]:focus {
 
 .JournalPortal-search_btn {
     color: #fff;
+    background-color: #37b0c9;
     font-family: "Entezar1";
     font-size: 22px;
     padding: 10px 0;
