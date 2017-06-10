@@ -521,7 +521,8 @@ input[type="color"]:focus {
 }
 
 .JournalPortal-officialSiteTitle {
-    font-size: 85px;
+    font-family: "Entezar4";
+    font-size: 62px;
     line-height: .8;
     z-index: 1;
 }
